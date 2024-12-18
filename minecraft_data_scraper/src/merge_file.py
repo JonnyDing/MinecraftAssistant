@@ -31,7 +31,7 @@ def merge_txt_files(input_folder, output_folder, files_per_merge=25):
 
 
 # 示例：输入文件夹和输出文件夹路径
-input_folder = '../data/resource_data'  # 替换为你的输入文件夹路径
-output_folder = '../data/resource_process_data'  # 替换为你的输出文件夹路径
+input_folder = '../data/natural_data'  # 替换为你的输入文件夹路径
+output_folder = '../data/natural_data/natural_process_data'  # 替换为你的输出文件夹路径
 
 merge_txt_files(input_folder, output_folder)

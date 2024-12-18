@@ -6,8 +6,8 @@ import random
 import time
 
 # 输入文件路径
-input_file = "../parser/item_list.xlsx"  # 输入的Excel文件路径
-output_dir = "../data/resource_data"  # 输出的TXT文件夹路径
+input_file = "../parser/excel/natural_list.xlsx"
+output_dir = "../data/natural_data"
 
 # 确保输出目录存在
 os.makedirs(output_dir, exist_ok=True)
@@ -34,7 +34,7 @@ def fetch_with_retries(url, retries=3):
             return response
         except requests.RequestException as e:
             print(f"[WARN] 请求失败，重试 {attempt + 1}/{retries}: {e}")
-            random_sleep(2, 5)  # 每次重试前延迟
+            # random_sleep(2, 5)  # 每次重试前延迟
     return None
 
 
@@ -76,6 +76,6 @@ for index, row in data.iterrows():
             f.write("爬取失败")
 
     # 随机延迟，模拟人工操作
-    random_sleep(3, 6)
+    # random_sleep(1, 3)
 
 print(f"[INFO] 所有内容已保存到文件夹: {output_dir}")

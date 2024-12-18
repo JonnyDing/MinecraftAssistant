@@ -1,0 +1,2 @@
+Biome For Player With No Time For Nonsense 是一个全是积雪的针叶林的生物群系，矿物全部被替换成了红石元件。在 busy 维度中会生成，且是该维度的唯一生物群系。
+在自选世界类型中的名称为 Biome For Player With No Time For Nonsense，但注册名为 minecraft:busy。

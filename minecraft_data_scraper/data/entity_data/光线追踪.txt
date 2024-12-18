@@ -1,0 +1,58 @@
+简介
+光线追踪（Ray Tracing）是在开启 ray_tracing 规则时生成的类似玩家的生物，没有对应的刷怪蛋且无法使用/summon生成，拥有 20 点（）生命值。
+行为
+在开启 ray_tracing 规则后，需要等待一段时间，直到出现了“Ray Tracing加入了游戏”消息后，会在出生地附近生成。
+光线追踪会在四处游荡，并且每隔一段时间会发一条消息。
+光线追踪同样受僵尸、骷髅等怪物的敌对。
+在光线追踪死亡后发送一条死亡消息和一条聊天消息。
+当 ray_tracing 规则被废除后，光线追踪会消失，并发送“Ray Tracing离开了游戏”消息和一条额外的退出消息。
+消息
+进入消息
+Did someone say cake? I'm here for the cake!（好像有人说“蛋糕”？我是来吃蛋糕的！）；
+Greetings, fellow Minecrafters! Let's build some amazing things together（各位 Minecraft 玩家，大家好！我们来造点稀奇玩意吧）；
+I come bearing gifts... of dirt. Lots and lots of dirt（我带来了礼物……是泥土。很多很多泥土）；
+I hope everyone is ready for some serious block-placing action!（希望大家都能做好认真搭方块的准备！）；
+I don't always play Minecraft, but when I do, I prefer to play with awesome people like you我没有一直在玩 Minecraft，不过我上线的时候，总喜欢跟像你这样厉害的人一起玩）；
+I heard there was a party happening here. Did I miss the memo?（听说这里有个聚会。只有我错过了？）；
+Hey everyone, can I join your Minecraft book club?（大家好，我能加入你们的 Minecraft 书友会吗？）；
+I'm not saying I'm the best Minecraft player, but I did once build a castle out of wool（真不是我说我玩 Minecraft 有多厉害，我以前用羊毛建了个城堡）；
+I'm here to mine some blocks and chew bubblegum... and I'm all out of bubblegum（我来这里挖些方块，嚼点泡泡糖……我的泡泡糖已经用光了）；
+Hello, is this the Minecraft support group? I think I'm addicted（你好，这里是 Minecraft 互助小组吗？我觉得我上瘾了）。
+随机发言
+I just found diamonds! Wait, no, it's just coal. Again.（我找到钻石了！等等，不对，那是煤炭。又是这样。）
+I'm a master builder. I built a dirt house once（我是建筑大师。我建过一个泥土屋）
+Creepers? Never heard of 'em（苦力怕？没听说过）
+I could've sworn I put that torch there（我敢肯定我在那里插了火把）
+If at first you don't succeed, dig straight down（如果一次不成功，那就垂直往下挖）
+I'm not lost, I'm just exploring（我没走丢，我只是在探险）
+Is it just me, or do those cows have judgmental eyes?（只有我觉得那些牛在用审视的眼光看人吗？）
+I've never been to the Nether, but I hear it's a nice place to vacation（我没去过下界，但我听说那里是个度假胜地）
+I heard if you punch trees long enough, they turn into diamonds（我听说只要捶得够久，树木就会被捶成钻石）
+Sometimes I feel like the only thing I'm good at is dying in lava（有时候我觉得自己只擅长死在熔岩里面）
+I'm not lost, I'm just temporarily misplaced（我没走丢，我只是暂时走错地方了）
+I like my Minecraft like I like my coffee: with extra sugar cubes（我喜欢 Minecraft，就像我喜欢多糖咖啡一样）
+I heard that if you stare at a pig long enough, it will give you its best pork chop（我听说只要盯得够久，猪就会献出自己身上最棒的一块猪排）
+I'm convinced that creepers were invented by the developers just to mess with us（我相信苦力怕是开发者用来整我们的东西）
+Why build a fancy castle when you can watch a video of someone else building one?（既然能观看别人建造华丽城堡的视频，为什么你还要自己建一个呢？）
+死亡消息
+That was just a warm-up, next time I'll be ready!（热热身而已，下次我会做好准备的！）
+I got caught off-guard. I won't make that mistake again（真是猝不及防。我下次不会再犯这种错误了）
+It's not my fault, the lag made me miss my jump!（不是我的错，游戏延迟害得我忘记跳跃了！）
+I was distracted by that beautiful sunset（夕阳美景让我走神了）
+I was just testing to see how much fall damage I could survive（我只是在测试自己能承受多少摔落伤害）
+I was trying to show off my parkour skills, but it didn't go as planned（我想卖弄一下跑酷技巧，但这不在我的意料之中）
+I thought I had enough food to survive, but apparently not（我以为我带的食物够我活下去了，但似乎不够）
+I underestimated the strength of those zombies（我低估了那些僵尸的力量）
+I was practicing my speedrun strats and got a bit carried away（我在练习速通，结果有点走火入魔了）
+I was trying to get a better view and accidentally fell（我试着看清远景，然后意外失足了）
+退出消息
+I have to go take care of my real-life sheep. See you all later!（我该去照料现实中的羊了。回头见！）
+My mom is calling me for dinner. Gotta run!（我妈叫我去吃晚饭了。该走了！）
+Sorry guys, I have a meeting with the Ender Dragon. It's urgent.（抱歉了各位，我要跟末影龙会面。情况紧急。）
+I have to go put out a fire... in the real world. Bye!（我该去灭火了……去现实中灭火。再见！）
+I'm sorry, I have to go study for my Minecraft finals（抱歉，我该去做 Minecraft 期末备考复习了）
+My boss just messaged me. Apparently, there's a creeper invasion at work. Gotta go!（我的上司给我发消息了。显然是因为苦力怕入侵了办公室。该走了！）
+I have to go feed my pet slime. They get cranky if I don't feed them on time（我该去喂我的宠物史莱姆了。不按时喂的话，它们会狂躁的）
+I need to take a break. Bye everyone!（我需要休息一下。各位再见！）
+I promised my little sibling I would play Minecraft with them. Time to go fulfill that promise!（我向弟弟妹妹们保证过我会跟他们一起玩 Minecraft。该去兑现承诺了！）
+I'm sorry, but I have to go save the world from the zombie apocalypse. Wish me luck!（抱歉，我该去应对丧尸危机、拯救世界了。祝我好运吧！）

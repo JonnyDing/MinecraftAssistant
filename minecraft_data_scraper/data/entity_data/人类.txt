@@ -1,0 +1,7 @@
+人类（Human）是使用默认玩家皮肤的敌对生物，在 Java 版 pre-Classic 的 rd-132328 版本中加入，那时人类在代码中称为“僵尸”。
+在 pre-Classic 以及 Indev 0.31 的部分版本中，人类可自然生成在世界上。 Classic 0.24_SURVIVAL_TEST 版本前，可按下 G 键生成一个人类。 Classic 0.24_SURVIVAL_TEST 版本后，常用地图编辑器或Mod生成人类，除此之外已无法在原版生成人类。
+在 Indev 0.31 的部分版本中，人类死后会随机掉落线、羽毛或火药，其余版本的人类死后没有掉落物。
+在 pre-Classic 至 Classic 期间，人类会漫无目的的乱跳，甚至跳入虚空。
+在 Indev 版本中，人类被拆分成了“Mob”和“Monster”两个实体。“Mob”是被动型生物，“Monster”为敌对生物。
+人类在 Java 版 Classic 0.24_SURVIVAL_TEST 版本中修改了纹理，并移除了移除了使用 G 键生成人类的能力。在 Java 版 Indev 0.31 20100131 版本中，人类会自然生成，但是在 20100202 版本中再次无法自然生成。
+Java 版 Beta 1.2 中移除了“Mob”人类，正式版中在 1.11 快照 16w32a 版本中删除实体 ID“Monster”和“Mob”的人类，彻底清除人类的残留。

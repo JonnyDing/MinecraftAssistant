@@ -1,0 +1,1 @@
+黑曜石墙（Obsidian walls）是 Java 版 Infdev 中被用于测试目的，并标记主方向的位置的结构，仅存在于 Java 版 Infdev 20100227-1 和 Java 版 Infdev 20100227-2 两个版本中。

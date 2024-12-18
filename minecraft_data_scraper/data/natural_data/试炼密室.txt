@@ -1,0 +1,10 @@
+简介
+试炼密室（Trial Chambers）是一个包含试炼刷怪笼和宝库的地下结构。
+试炼密室自然生成于主世界的深板岩层，其起始结构为生成旋风人的决斗室，在 y=-40 到 y=-20 的高度生成。
+Java 版中，每 34×34 个区块的区域中总会有一个试炼密室生成。
+基岩版中，生成概率相较于 Java 版更低。
+结构
+主要分为柱廊、楼道、交叉口和决斗室。
+结构文件夹在 client.jar/data/minecraft/structures/trial_chambers（Java 版）或 data/behavior_packs/vanilla/structures/trial_chambers（基岩版）中。
+版本信息
+试炼密室在 Java 版 1.20.3 快照 23w45a 中加入，基岩版在 1.20.60.20 版本加入。

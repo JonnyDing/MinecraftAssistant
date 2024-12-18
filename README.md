@@ -48,7 +48,7 @@ pytorch 2.3.0
 ### Step 2.1:爬取一个示例网页
 
 ```shell
-python minecraft_data_scraper/src/scraper_example.py
+python minecraft_data_scraper/src/scraper_single.py
 ```
 
 ### Step 2.1:解析网页结构
@@ -60,7 +60,7 @@ python minecraft_data_scraper/src/parser_html.py
 ### Step 2.3:爬取论坛网页
 
 ```shell
-python minecraft_data_scraper/src/scraper_resources.py
+python minecraft_data_scraper/src/scraper_multi.py
 ```
 
 ## Step 3: 模型下载

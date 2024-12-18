@@ -1,0 +1,1 @@
+被激活的水下TNT（Primed Underwater TNT）是一种激活水下TNT后生成的实体。

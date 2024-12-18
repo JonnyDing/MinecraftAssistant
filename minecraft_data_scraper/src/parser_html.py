@@ -4,7 +4,10 @@ import pandas as pd
 import json
 
 # 设置目标URL
-url = "https://www.mcmod.cn/item/list/1-1.html"
+# url = "https://www.mcmod.cn/item/list/1-1.html"  #方块
+# url = "https://www.mcmod.cn/item/list/1-4.html"  #实体
+# url = "https://www.mcmod.cn/item/list/1-2.html"    #群落
+url = "https://www.mcmod.cn/item/list/1-8.html"    #自然
 
 # 发送HTTP请求并获取网页内容
 response = requests.get(url)
@@ -48,12 +51,12 @@ for row in rows:
 
 # 将结果保存为Excel
 df = pd.DataFrame(data)
-excel_file = "../parser/item_list.xlsx"
+excel_file = "../parser/excel/natural_list.xlsx"
 df.to_excel(excel_file, index=False)
 print(f"数据已保存到 Excel 文件: {excel_file}")
 
 # 将结果保存为JSON
-json_file = "../parser/item_list.json"
+json_file = "../parser/json/natural_list.json"
 with open(json_file, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 print(f"数据已保存到 JSON 文件: {json_file}")

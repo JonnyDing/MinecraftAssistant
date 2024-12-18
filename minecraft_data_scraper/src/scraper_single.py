@@ -28,20 +28,20 @@ def init_driver():
     return driver
 
 # 爬取正文文本
-def scrape_content(url):
+def scrape_content(url, container_selector="div.text"):
     log_message(f"开始爬取页面：{url}")
     driver = init_driver()
     driver.get(url)
-    random_sleep(3, 6)
+    # random_sleep(3, 6)
 
     try:
         # 等待页面的主要内容加载完成
         WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "div.Mid2L_con"))
+            EC.presence_of_element_located((By.CSS_SELECTOR, container_selector))
         )
 
         # 定位到整个内容容器
-        content_container = driver.find_element(By.CSS_SELECTOR, "div.Mid2L_con")
+        content_container = driver.find_element(By.CSS_SELECTOR, container_selector)
 
         # 提取所有 <p> 标签内容
         paragraphs = content_container.find_elements(By.TAG_NAME, "p")
@@ -70,11 +70,18 @@ def save_to_txt(content, output_file="data/raw_data/output.txt"):
 
 # 主函数
 if __name__ == "__main__":
-    for i in range(68):
-        url = f"https://www.gamersky.com/handbook/201607/777466_{i+1}.shtml"
-        output_path = f"../data/raw_data/output{i+1}.txt"
-        content = scrape_content(url)
-        if content:
-            save_to_txt(content, output_file=output_path)
-        else:
-            log_message("未能获取到有效内容，程序结束。")
+    # for i in range(68):
+    #     url = f"https://www.gamersky.com/handbook/201607/777466_{i+1}.shtml"
+    #     output_path = f"../data/raw_data/output{i+1}.txt"
+    #     content = scrape_content(url)
+    #     if content:
+    #         save_to_txt(content, output_file=output_path)
+    #     else:
+    #         log_message("未能获取到有效内容，程序结束。")
+    url = "https://www.mcmod.cn/post/2635.html"
+    output_path = "../data/raw_data/output69.txt"
+    content = scrape_content(url,"div.text")
+    if content:
+        save_to_txt(content, output_file=output_path)
+    else:
+        log_message("未能获取到有效内容，程序结束。")
