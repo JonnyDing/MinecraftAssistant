@@ -1,0 +1,2 @@
+史上最炫楼梯（Swaggiest stairs ever）是下界合金块的一个变种，即下界合金楼梯，但无法通过合成获得。自然生成于 missing 维度，是通往箱子的楼梯。
+虽然英文名称和下界合金楼梯没有关系，但在注册名和游戏文件夹中的相关文件都使用 netherite_stairs 而不是 swaggiest_stairs_ever。

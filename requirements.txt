@@ -1,0 +1,16 @@
+# 升级pip并更换源
+--extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 依赖包
+modelscope==1.16.1
+transformers==4.43.1
+accelerate==0.32.1
+peft==0.11.1
+datasets==2.20.0
+Flask
+transformers
+peft
+torch
+selenium
+requests
+beautifulsoup4

@@ -1,0 +1,2 @@
+更长的线（Longer String）是一个在开启 special_recipe 规则时可以合成的物品，没有实际用途，无法被放置。
+更长的线需要至少开启两次 special_recipe 规则时才可以被合成。

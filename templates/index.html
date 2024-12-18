@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>对话测试</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- 左侧物品列表 -->
+        <div class="sidebar">
+            <h3>我的世界物品</h3>
+            <div id="item-container">
+                <!-- 分类和物品将动态加载 -->
+            </div>
+        </div>
+
+        <!-- 右侧对话窗口 -->
+        <div class="chat-container">
+            <h2>对话窗口</h2>
+            <div class="chat-box" id="chat-box">
+                <div class="message-container npc">
+                    <img class="avatar" src="{{ url_for('static', filename='images/npc.jpg') }}" alt="NPC">
+                    <div class="message">你好呀，我是David，我是Minecraft的全能小百科。</div>
+                </div>
+            </div>
+            <div class="input-box">
+                <textarea id="user-input" rows="2" placeholder="输入你的问题..."></textarea>
+                <button id="send-btn">发送</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 引入 JS 文件 -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

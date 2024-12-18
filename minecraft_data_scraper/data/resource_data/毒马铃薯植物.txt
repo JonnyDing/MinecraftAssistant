@@ -1,0 +1,257 @@
+简介
+毒马铃薯植物（Poisonous Potato Plant），简称 P.P.P.（PoisonousPotatoPlant），是一个引导玩家游玩 24w14potato 的物品，直到击败超级马铃薯怪并获得马铃耶什，农民的传说之杖。
+在物品栏中显示的是毒马铃薯的纹理，当玩家手持或鼠标指针移动到毒马铃薯植物上时，才会显示出佩戴格鲁乔眼镜的马铃薯纹理。
+Poisonous Potato Plant 不仅指植物，在俚语中，Plant 也表示密探，也解释了一些关于毒马铃薯植物的对话和文本。
+拿起放下其 4 次后，在提示框中会出现一条紫色斜体的信息：“On closer inspection this 毒马铃薯 is a plant”（仔细端详，毒马铃薯是一名植“务”），信息中的“毒马铃薯”的语言取决于游戏语言。
+将多个毒马铃薯植物放置在箱子中，每次打开箱子时会随机产生被重命名的纸，内容如下：
+Are you a plant?（你是植“务”吗？）；
+Do you thinktheplayerknows?（你觉得那个玩家知道吗？），其中 the player 会被替换为曾经佩戴过它的玩家名称，若没有则依旧是 the player；
+I think they know（我觉得他们知道）；
+Let's stay quiet（嘘——）；
+Destroy this message after reading（阅后即焚）。
+这些纸在是一样的毒马铃薯植物产生的情况下才可以叠加，例如 A 和 B 产生了一张纸，B 和 C 产生了内容一样的纸，但这两张纸并不能堆叠。
+获取
+毒马铃薯植物可以从奖励箱中获取。
+当蝙薯和毒马铃薯僵尸被玩家或驯服的狼杀死时，有 33.33% 的概率掉落。
+挖掘马铃薯植株时有 2% 的概率掉落此物品，不受时运魔咒影响。
+用途
+毒马铃薯植物是一个引导物品，可以将其佩戴到头盔槽中（若此前没有佩戴过将要佩戴的毒马铃薯植物，则右击无法快捷的佩戴到头盔槽中），佩戴在头上时毒马铃薯植物会在屏幕左上角摇晃并弹出对话，每弹出一个字符都会播放一次音色为 flute 的音符盒的音效，事件进度储存在玩家数据 PotatoQuest 中。
+玩家可以通过跳跃或完成特定的任务来引出下一段对话，部分事件完成时会给予玩家一些奖励。
+摘下再戴上会重复上一句话。
+无论马铃薯事件是否完成，玩家重生或在马铃薯维度掉入虚空都将重新开启事件。
+在一定时间内若玩家没有再触发下一段对话，则对话会暂时消失，直到玩家触发下一段对话。
+对话
+为了引导玩家通关该愚人节版本，会通过对话的方式引出教程和任务。
+当玩家初次佩戴毒马铃薯植物时，会触发以下对话：
+Well, well, well. It looks like you found us.(Press [空格] to acknowledge)（嗯，嗯，嗯。似乎你找到我们了。（按[空格]以回应））。若更改了跳跃的键位，则方括号内的键位会显示更改后的键位；
+Woah, steady on your feet there<玩家名称>.（哇，给我站稳了，<玩家名称>。）；
+You're probably thinking: "What's the deal with this guy?"（你可能在想：“这家伙到底是怎么回事？”）；
+I invite you to take a moment to consider my situation.（我请你花一些时间来思考我的处境。）；
+We've been planning on infiltrating Minecraft for weeks.（我们计划渗入 Minecraft 已经有好几周了。）；
+But all we could manage is sneaking into this April Fools' Snapshot.（但我们能做到的只是偷偷溜进这个愚人节快照。）；
+And now you've discovered us.（而现在你发现我们了。）；
+Do you have any idea how difficult it is to write Java code?（你知道撰写 Java 代码有多难吗？）；
+It's not as simple as copying samples from the internet.（它可不像从网上复制样例那么简单。）；
+There's also a lot of pasting involved.（还有很多的粘贴。）；
+We had to write tens of lines of code by rolling on the keys and hoping for the best.（我们不得不通过滚键盘的方式来撰写数十行代码，并希望一切顺利。）；
+And now that I have finally infiltrated Minecraft: You pranced on over, picked me up, and plopped me on your head.（而现在，我终于渗入 Minecraft了：你蹦蹦跳跳地走过来，把我抱起来，然后放在头上。）；
+I must say, you have incredible balance keeping me up here.（不得不说，你有一种难以置信的平衡让我保持在这里。）；
+Especially considering you're jumping so much.（尤其是在考虑到你跳得这么多的时候。）；
+Why are you jumping? Are you being startled?（你为什么要跳呢？你被惊讶到了吗？）；
+I don't see much to be startled by around here.（我没有看到这里有什么让人吃惊的。）；
+Then again, I have no eyes as I am a Poisonous Potato.（话又说回来，我没有眼睛，因为我只是一个毒马铃薯。）；
+So really I'm not going to see much at all.（所以实际上我不会看到太多。）；
+Although the little sprouts growing out of me are also called eyes.（虽然从我身上长出来的小芽也叫作“眼”。）；
+Perhaps if I squint hard enough I can see where we're at.（也许如果我足够努力地眯着眼睛，我能看到我们在哪里。）；
+Watch out! There's a block over there! Try not to be startled by it!（小心！那边有个障碍物！别被它吓到了！）；
+Maybe you need a moment to breathe and relax. This world is very startling, afterall.（也许你需要片刻的呼吸和放松。毕竟这个世界是非常让人吃惊的。）；
+If we can find a Village we could take one of those Beds and rest.（如果我们能找到一个村庄，我们就可以在其中的一张床上休息。）；
+Let's find a Minecraft Village.（让我们去寻找一个 Minecraft 的村庄吧。）。
+当玩家进入任意一种村庄时，会触发对话：
+There should be a Bed around here that we can take.（这附近应该有一张床，我们可以去休息。）。
+在进入村庄后，会出现两种对话。
+当玩家以任意方式获得床后，会触发对话：
+Did I say take a Bed? I think I meant to say "Take a nap".（我是说拿走一张床吗？我认为我要表达的是“睡一觉”。）。
+当玩家直接在床上睡觉后，会触发以下对话：
+I'm pretty sure I said TAKE a Bed.（我很确信我说的是占据一张床。）；
+Sleeping in a Bed is not the same as taking a Bed.（在床上睡觉与占据一张床并不相同。）；
+If I had meant that, I would have said: "Hey <玩家名称>. You should TAKE a nap".（如果我真的是那个意思，我会说：“嘿，<玩家名称>，你应该睡一觉。”）。
+若玩家两种都没有触发，直接离开村庄，会触发以下对话：
+Woah, woah, woah. You need to rest your tired feet, remember?（哇，哇，哇。你需要歇歇，记得吗？）；
+Let's go back to that Village and take a Bed.（让我们回到村庄休息吧。）。
+直到玩家触发了以上两种对话的任意一段才会触发下一段对话。
+当玩家完成两种床的任务的任意一种时，会触发以下对话：
+By the way-（顺带一问——）；
+What do you think of this year's April Fools' joke?（你觉得今年的愚人节玩笑怎么样呢？）；
+I preferred the one where you could only pick up a single Block.（我更喜欢那个只能拿起一个方块的。） ，指 22w13oneBlockAtATime；
+But this year I think they nailed it.（但今年我觉得他们成功了。）；
+Potatoes!（马铃薯！）；
+Hilarious.（这很滑稽。）；
+Anyways. I am genuinely interested in your thoughts.（无论如何，我对你的想法真的很感兴趣。）；
+...；
+I'm trying to read your thoughts, but I don't think we are communicating with telepathy.（我试着读取你的想法，但我不认为我们在用心灵感应交流。）；
+At least, two-way telepathy. This feels rather unidirectional.（至少，双向的心灵感应。这感觉相当单向。）；
+And then you jump every now and then.（然后你时不时地跳起来。）；
+I am only assuming that jumping is a sign of acknowledgement.（我只是认为跳跃是回应的一个标志。）；
+Perhaps I can modify your inventory...（也许我可以修改你的物品栏……）。
+结束后会给玩家一张有用紫色斜体描述的纸，描述为“Write your thoughts on the April Fools' Snapshot”（写下你对愚人节快照的看法）。
+拿到纸后，会触发以下对话：
+You should hopefully have some Paper on you.（希望你已经获得了一些纸。）；
+Oh wait, you need an Anvil too.（哦，等等，你也需要一个铁砧。）。
+结束后玩家的面前会生成一个铁砧，以下落的方块形式出现。
+获得铁砧后，会触发以下对话：
+There, that should do it.（这样，就可以了。）；
+Use that Anvil to write your thoughts on the Paper.（用那个铁砧把你的想法写在纸上。）。
+玩家需要在铁砧内给纸（可以不是毒马铃薯植物给的）重命名，并拿下时（不能用快捷键 Shift+右键），会触发以下对话：
+I don't think I can read this Paper.（我不认为我能够阅读这张纸。）；
+My Potato eyes aren't suitable for reading.（我的马铃薯眼睛不适合阅读。）；
+Remember what I said about not being able to see?（还记得我说过我看不见吗？）；
+Nothing has changed in that department.（那个部门没有任何变化。）；
+I will assume that you are VERY enthusiastic about the Snapshot.（我会认为你对这个快照充满热情。）；
+It will be on page 1 of my report.（它将会在我的报告里的第一页。）；
+"<玩家名称> really likes the Poisonous Potato themed jokes."（“<玩家名称>很喜欢这个毒马铃薯主题的笑话。”）；
+There. It's in my report.（看，就在我的报告里。）；
+Actually I might need that Paper back.（事实上我想要回那张纸。)；
+I tore it from the back of my report.（这是我从报告的最后撕下来的。）；
+And I think that page was the appendix.（而且我认为这一页是附录。）；
+The first item in the appendix will be your take on this Snapshot.（附录中的第一项将会是你对这个快照的看法。）；
+You must be wondering what this report is about.（你一定很想知道这篇报告是关于什么的。）；
+It pertains as to why I am here in Minecraft.（这与我为什么会出现在 Minecraft 里有关。）；
+And that information is CLASSIFIED.（而这些信息是保密的。）；
+But I will hint that it involves the Poisonous Potato.（但我要暗示一下，这与毒马铃薯有关。）；
+We believe there is some significance to the Poisonous Potato.（我们相信毒马铃薯是有意义的。）；
+And from analysis of the Minecraft code...（而根据对 Minecraft 代码的分析……）；
+We believe you should try cutting out the eyes.（我们认为你应该试着切除眼睛。）；
+Or more accurately: Craft out the Potato Eyes.（或者更准确地说：合成马铃薯之眼。）；
+Go on <玩家名称>. Craft Potato Eyes from a Poisonous Potato.（继续， <玩家名称>。由毒马铃薯合成马铃薯之眼。）。
+当玩家在结束上一段对话后合成出了马铃薯之眼时（只能通过合成触发对话），会触发以下对话：
+Wow nice crafting. Have you played Minecraft before?（哇，合成得不错。你之前有玩过 Minecraft 吧？）；
+Now we're going to go on a little adventure.（现在我们要出发冒险了。）；
+Throw the Potato Eye into the air.（将马铃薯之眼扔向空中。）；
+When I say "throw" I don't mean "drop".（我说的“扔”意思并不是“丢弃”。）；
+It's something to do with "Using" the Potato Eye with 右键.（而是一种通过右键“使用”马铃薯之眼的方式。），若更改了使用物品/放置方块的键位，则右键会显示更改后的键位；
+Look into the sky and use the Potato Eye with 右键.（看向天空，用右键使用马铃薯之眼。）。
+当玩家结束上一段对话后并使用马铃薯之眼时，会触发以下对话：
+Excellent.（好极了。）；
+It looks like a developer copy-pasted the Ender Eye code for this.（看起来像是开发者复制粘贴了末影之眼的代码。）；
+That means there's a chance these Potato Eyes could break.（这意味着马铃薯之眼有概率破碎。）；
+Remember to craft more if you lose a Potato Eye.（如果你失去了一枚马铃薯之眼，记得合成更多。）；
+Wow a Minecraft adventure. This is exciting.（哇，是一段 Minecraft 的冒险。真是让人激动啊。）；
+I wonder what the deal is with the Potatoes?（我很好奇，这马铃薯是怎么了呢？）；
+Perhaps the Developers REALLY like Potatoes.（可能开发者们是真的非常喜欢马铃薯。）；
+At least, the Poisonous ones.（至少，是有毒的。）；
+Poisonous Potatoes, that is.（“有毒”指的是毒马铃薯。）；
+Not Poisonous Developers.（不是说开发者们有毒。）；
+Do you think the Developers are hiding somewhere in this Snapshot?（你认为开发者们是不是藏在了这个快照里的什么地方了呢？）；
+Maybe we will meet one!（可能我们就会遇到一个！）；
+You should take my Minecraft ideas to show them.（你应该拿出我的 Minecraft 点子让他们看看。）。
+对话结束后，玩家会获得一本由 P.P.P. 写的名为《My Minecraft Ideas》的成书，内容如下：
+第一页：
+Ice cream scoops（冰淇淋勺）；
+Filthy rags（肮脏的破布）；
+Emerald Horse Armor（绿宝石马铠）；
+Sunglasses（太阳镜）；
+Many spiders（很多蜘蛛）；
+More spiders（更多蜘蛛）；
+Lots of spiders（诸多蜘蛛）；
+Too many spiders（过多蜘蛛）；
+Ice cream spiders（冰淇淋蜘蛛）；
+Tiny fishing rods（袖珍钓竿）；
+Boots that don't fly off my feet when I am running（在我跑步时不会从我脚上飞出的靴子）。
+第二页：
+Boots that don't fly off my feet, kicking me in my own nose, when I am running（在我跑步时不会从我脚上飞出并踢到自己鼻子的靴子）；
+Emerald Horses（绿宝石马匹）；
+Moonglasses（月亮镜）；
+X-ray glasses（透视镜）；
+Four course meals（四道菜肴）；
+Smaller Salmon（更小的鲑鱼）；
+Toothbrushes (to help with dental hygiene)（牙刷（帮助我的口腔健康））。
+第三页：
+One of those chocolate eggs that you'd find in a cave, but you cannot pick it up, you must unwrap its foil there on the ground, and eat it immediately, leaving the trash behind（可以在洞穴里发现的巧克力蛋，但不能捡起来，只能就地打开包装并立即吃掉，把垃圾扔在后面）；
+More things made of Stone（更多石制物品）；
+Ray from last years' April Fools'（去年愚人节玩笑里的光），这里的光指 23w13a_or_b 的光线追踪。
+获得成书后会继续以下对话：
+I've written my best Minecraft ideas in this book.（我把我最棒的 Minecraft 点子写在这本书里了。）；
+They are very original ideas.（这些是非常新颖的点子。）；
+If the Developers don't use them then I could make a mod.（如果开发者们不采纳这些点子的话，那么我会制作一个 Mod。）；
+Or maybe they could give me a job?（或许他们会给我一个职位？）；
+I could start by making everyone coffee.（我可以从为所有人制作咖啡开始。）；
+I'd tell jokes about drinking coffee and writing Java code.（我会讲喝咖啡和编写 Java 代码的笑话。）；
+They probably only hire Minecraft experts.（他们可能只会雇用 Minecraft 专家。）；
+<玩家名称>! We should become Minecraft experts!（<玩家名称>！我们应当成为 Minecraft 专家！）；
+And I know the perfect way to do that.（而我知道成为 Minecraft 专家的完美途径。）；
+Our intelligence tells us of a legendary Greatstaff: Potatiesh.（我们的智慧告诉我们一个传说之杖：马铃耶什。）；
+Spoiler alert: It is the ultimate item in this April Fools' Snapshot.（剧透警告：这是本次愚人节快照里的究极物品。）；
+You need to acquire Potatiesh, Greatstaff of the Peasant.（你需要获得“马铃耶什，农民的传说之杖”。）。
+当玩家接近或到达马铃薯传送门时，会触发以下对话：
+Is that the portal?（那是传送门吗？）；
+It seems a little...Worse for wear.（看起来……有一些破旧了。）；
+I see a Pedestal in the middle.（我看到中间有一个传送门底座。）；
+Have you got a spare Poisonous Potato with you?（你还有多的毒马铃薯吗？）；
+Try using a Poisonous Potato with the Pedestal.（试着对传送门底座使用毒马铃薯。）。
+结束上一段对话后，使用毒马铃薯激活传送门底座时，会触发以下对话：
+Just as I thought. A portal.（正如我所想的，是一个传送门。）；
+I think you know what happens next.（我认为你知道接下来会发生什么。）；
+You're going to waltz on in there, find a Dragon, and destroy some Potato themed crystals.（你将会在那里跳华尔兹，找到一条龙，并摧毁一些毒马铃薯主题的水晶。）；
+This Snapshot is dripping with creativity.（这个快照真是充满了创新性。）；
+Lucky that I am here to provide commentary and context.（我很幸运能够在这里提供评论和背景。）。
+当玩家进入马铃薯维度时，会触发以下对话：
+At last. The Potato Dimension.（最终，是马铃薯维度。）；
+Does something smell...Starchy to you?（你可否闻到了一些……淀粉味的东西？）；
+I think you need to change your shampoo.（我认为你需要更换洗发水了。）；
+I am feeling quite greasy up here.（我觉得你这里很油腻。）；
+Let's focus on the task at hand.（让我们关注手头上的任务吧。）；
+...；
+This place is looking rather tragic.（这个地方看起来相当悲惨。）；
+Have you seen the animals?（你看到那些动物了吗？）；
+The Minecraft Pig is looking pretty cheeky.（Minecraft 的猪看起来脸皮很厚。）；
+And so is the Cow. Very cheeky.（牛也是。很厚颜无耻。）；
+Anyhow, we should find a Potato Village.（接下来，我们应该找一个马铃薯村庄。）；
+There should be a Potato Village around here somewhere...（这附近应该有一个马铃薯村庄……）。
+结束上一段对话后进入马铃薯村庄，会触发以下对话：
+Awesome, you're in a Potato Village.（好，你来到马铃薯村庄了。）；
+This will be our base of operations from here on out.（从现在开始，这里将会是我们的行动基地。）；
+Familiarize yourself with the Villagers.（熟悉一下村民。）；
+Steal their loot, etc. The usual Minecraft stuff.（偷走他们的战利品，等等。常见的 Minecraft 物品。）；
+There's some neat stuff around here.（这里有一些整洁的东西。）；
+Most of it is Potato themed.（大部分都是马铃薯主题的。）；
+But as long as you think Potatoes are neat. You'll be right at home.（但只要你认为马铃薯是整洁的，你就会感觉这里像家一样。）；
+Once you're ready: Throw another one of those Potato Eyes.（一旦你准备就绪，再扔出一个马铃薯之眼。）。
+结束上一段对话后，再次扔出马铃薯之眼，会触发以下对话：
+On the road, once again.（再一次，上路了。）；
+This time we're looking for a dangerous place.（这回我们要寻找一个危险的地方。）；
+It'll be a battle against the ultimate Potato.（将会是与究极马铃薯的战斗。）；
+That's all the information I have.（这是我所知道的所有信息。）；
+If I were to guess: It's probably a Maris Piper.（我猜那可能是 Maris Piper 马铃薯。），这里的 Maris Piper 是一种在英国常见的马铃薯。
+Known to be the most versatile of the Potatoes.（被认为是最全能的马铃薯。）；
+It's worth going in with the right tools.（值得使用正确的工具。）；
+Sharpen up some swords, boil up some potions.（把剑磨砺，酿好药水。）；
+Don't forget to also cook up some potatoes.（也不要忘了煮一些马铃薯。）；
+We're certainly not lacking for potatoes here.（我们这里当然不缺马铃薯。）。
+结束上一段对话后，当马铃薯之眼找到角斗场时，会触发以下对话：
+The Potato Eye is pointing around here.（马铃薯之眼正指向这里。）；
+That means we're near the right place!（这意味着我们找到正确的地方了！）；
+Let's start digging until we find the structure.（让我们开始挖掘，直到发现那座建筑。）；
+Come on, <玩家名称>. Time to put the MINE into Minecraft.（来吧，<玩家名称>。是时候将挖矿放进 Minecraft 里了。）；
+...；
+What I'm trying to say is: Start digging.（我要说的是：开始挖掘。）；
+Mine your way into the structure.（挖出一条进入那座建筑的通路。）。
+当玩家进入到角斗场中时，会触发以下对话：
+Woah. I think we're here.（哇，我想我们到了。）；
+This looks like some kind of Colosseum.（这里看起来像是一个角斗场。）；
+I think you'll need this Wooden Sword.（我认为你需要这把木剑。）。
+结束对话后会给予玩家一个木剑。
+获得木剑后会继续以下对话：
+Defend yourself. I'll watch your back!（做好防备，我会看着你的后面的！）；
+Look out!（看仔细了！）；
+Try a critical hit!（尝试暴击！）；
+Swing faster!（挥动得更快些！）；
+No, don't do that!（不，别这么做！）；
+Is that TNT?（那是 TNT 吗？），这里指超级马铃薯怪发射的火焰弹；
+If only you were wearing a Helmet.（要是你戴有头盔就好了。）；
+Go that way!（往那边走！）；
+Go the other way!（往另一边走！）；
+Try unplugging your mouse and swinging it!（试着把鼠标拔下来再挥动！）；
+Place some blocks!（放一些方块！）；
+Throw a blanket over it!（扔个篮子在上面！），这段对话在闪烁标语中也有；
+Try spinning really fast!（尝试疾速旋转！）。
+直到玩家获得马铃耶什，农民的传说之杖前，会一直循坏以上的对话。
+当玩家获得马铃耶什，农民的传说之杖时，会触发以下对话：
+This is Potatiesh, Greatstaff of the Peasant!（这就是马铃耶什，农民的传说之杖！）；
+Now I need you to follow my instructions very carefully.（现在我需要你非常谨慎地遵从我的指示。）；
+Place Potatiesh into a Composter.（把马铃耶什放进堆肥桶中。）；
+Trust me. I will definitely NOT betray you.（相信我。我绝对不会背叛你的。）；
+Find a Composter, and pop Potatiesh in there.（找到一个堆肥桶，并把马铃耶什放进去。）；
+It would be super cool if you closed your eyes afterwards.（然后如果你闭上眼睛，那将会很酷。）；
+Just pop Potatiesh into a Composter, and then close your eyes.（就是把马铃耶什放进堆肥桶中，然后闭上眼睛。）；
+It's a really real thing that you can definitely do.（这件事你绝对能够做到。）；
+Find a Composter, and use Potatiesh with it.（找到一个堆肥桶，并对其使用马铃耶什。）；
+当玩家使用马铃耶什，农民的传说之杖对着堆肥桶进行堆肥时，会触发以下对话：
+Wow I can't believe you fell for that.（哇，我真的不敢相信，你竟然上当了。）；
+Potatiesh really is the ultimate Staff.（马铃耶什真的是究极法杖。）；
+And now it's half-way composted into Bonemeal.（而现在它被分解为骨粉了。）；
+Congratulations.（恭喜。）；
+I made a fool out of you <玩家名称>.（我让你出丑了，<玩家名称>。）；
+April Fools'!（愚人节快乐！）。
+至此，对话结束，并在屏幕上显示完成马铃薯事件所用的时间（Completion Time），只有在戴上毒马铃薯植物时才会显示，并不在触发任何对话，摘下再戴上只会重复 April Fools'! 对话。
+对话时长也可以在统计信息的“Potato Quest Time”中查找。

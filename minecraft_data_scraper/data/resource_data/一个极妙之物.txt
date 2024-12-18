@@ -1,0 +1,3 @@
+一个极妙之物（A Very Fine Item）是一个可以在 isolation 维度中床旁边的物品展示框内找到的物品。
+该物品没有实际用途，纹理上写着“HOME SWEET HOME”字样。
+只能通过/give指令或前往 isolation 维度获取该物品，无法在创造模式物品栏中获取。

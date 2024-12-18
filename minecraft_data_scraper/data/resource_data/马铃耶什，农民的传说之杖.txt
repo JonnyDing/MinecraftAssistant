@@ -1,0 +1,5 @@
+马铃耶什，农民的传说之杖（Potatiesh, Greatstaff of the Peasant）是一个右击可以放出马铃薯传送门的物品。
+该物品致敬了《魔兽系列》中的“埃提耶什，守护者的传说之杖”（Atiesh, Greatstaff of the Guardian）。
+击杀超级马铃薯怪可以获得该物品。
+在生存模式中，如果没有获得“Non Plus Ultra”进度，使用此物品会在自身处产生带火的爆炸，并显示消息“<玩家名称> was unworthy of Potatiesh, Greatstaff of the Peasant”（<玩家名称>配不上马铃耶什，农民的传说之杖），因为此次爆炸死亡的玩家的死亡消息为：“<死者>死了”。
+右击堆肥桶可以堆肥，且必定使堆肥层数增加 1 层。

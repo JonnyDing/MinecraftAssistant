@@ -1,0 +1,2 @@
+信息标志（Information Sign）是一种装饰方块，无特殊用途。
+信息标志在 MinecraftEdu0.9652 版本加入。

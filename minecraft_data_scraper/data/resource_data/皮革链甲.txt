@@ -1,0 +1,1 @@
+皮革链甲（Studded armor）在 Java 版 Indev 0.31 20091231-2 版本加入，但只有对应的纹理，其灵感来源于 Legend of the Chambered 游戏。纹理文件

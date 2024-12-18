@@ -1,0 +1,29 @@
+电子脚镣（Ankle Monitor）是一个提醒玩家宵禁的智能物品，仅能在创造模式物品栏中获取，无法合成。
+电子脚镣可以佩戴在玩家的靴子槽。
+在夜晚时，当玩家距离出生点太远（实际上出去 1 格也会提示）时，会不断在聊天框中发消息：CURFEW WARNING! You are violating your house arrest! Get back by [数字] meters!（宵禁警告！你已违反宵禁规定！往回走[数字]米！），并发出音效以及给予玩家 15 秒的缓慢效果，直到到达出生点的那一格，否则会每隔 10 秒进行一次提醒。
+电子脚镣仅能在创造模式下或者死亡时脱下，类似于绑定诅咒。
+当玩家不在主世界时，会按顺序循坏提示玩家以下信息：
+CURFEW WARNING! You are violating your house arrest! Uuuh... where are you anyway?（宵禁警告！你已违反宵禁规定！呃……你在哪里呢？）
+CURFEW WARNING! Hello, are you there?（宵禁警告！你好，在吗？）
+CURFEW WARNING! I'm sure you have important things to do, but you need to go back!（宵禁警告！我相信你有重要的事，但你必须回来！）
+CURFEW WARNING! We're lonely back home!（宵禁警告！我们在家很孤单！）
+CURFEW WARNING! By "we" I mean I. I'm lonely.（宵禁警告！“我们”是指我。我很孤单。）
+CURFEW WARNING! Ok enough games... GET BACK RIGHT NOW!（宵禁警告！玩够了吧……立马回来！）
+CURFEW WARNING! LAST WARNING!（宵禁警告！最后警告！）
+CURFEW WARNING! LASTEST WARNING (really now)（宵禁警告！最后最后警告！（就是现在））
+CURFEW WARNING! ...（宵禁警告！…）
+CURFEW WARNING! So... Where are you?（宵禁警告！所以……你在哪？）
+CURFEW WARNING! Having a good day?（宵禁警告！你过得好吗？）
+CURFEW WARNING! Did you see that monster over there?（宵禁警告！你看到那边那只怪物了吗？）
+CURFEW WARNING! Give it a whack, if you would be so kind.（宵禁警告！如果你很善良的话就给它一击。）
+CURFEW WARNING! Teheee...（宵禁警告！嘻嘻……）
+CURFEW WARNING! Ok, enough of this!（宵禁警告！行，够了！）
+CURFEW WARNING! Last straw!（宵禁警告！忍无可忍！）
+CURFEW WARNING! Now you die.（宵禁警告！现在你死了。）
+CURFEW WARNING! Boom!（宵禁警告！嘣！）
+CURFEW WARNING! Hehe, fun right?（宵禁警告！呵呵，好玩吧？）
+CURFEW WARNING! Ok, you will not hear anything more from me now!（宵禁警告！行，你不会再收到我的消息了！）
+CURFEW WARNING! You'll be as lonely as I am.（宵禁警告！你会像我一样孤单的。）
+CURFEW WARNING! How does that feel?（宵禁警告！那是什么滋味？）
+CURFEW WARNING! I know, I'll wipe my memory. That way, I can start over!（宵禁警告！我明白，我会抹去记忆。这样我就能从头再来了！）
+CURFEW WARNING! *bzzzzttt*（宵禁警告！*滋滋滋*）

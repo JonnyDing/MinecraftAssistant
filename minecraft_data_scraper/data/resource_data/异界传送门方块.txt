@@ -1,0 +1,1 @@
+异界传送门方块（Other Portal）是在启用 other_portal 规则时，激活异界传送门时生成的方块，没有物品形式，只能通过/setblock等放置。

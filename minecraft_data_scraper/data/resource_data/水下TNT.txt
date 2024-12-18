@@ -1,0 +1,4 @@
+水下TNT（Underwater TNT）是一种爆炸时无视水的 TNT 变种。
+水下TNT 与 TNT 的注册名一样，因此用数据值来区分，水下TNT 为 2、3，破坏时掉落水下TNT。
+同时，当方块属性 allow_underwater_bit 为 true 时为水下TNT。
+水下TNT 在基岩版 1.2.20.1 和教育版 1.0.27 版本加入。

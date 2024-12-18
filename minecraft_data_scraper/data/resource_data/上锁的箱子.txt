@@ -1,0 +1,34 @@
+简介
+上锁的箱子（Locked Chest），也称史蒂夫公司供应箱（Steve Co. Supply Crate），是 Beta 1.4 中于 4 月 1 日生成的愚人节方块。
+上锁的箱子的灵感来源于《军团要塞2》的曼恩公司供应箱。
+在 1.3.1 快照 12w21a 版本前，上锁的箱子有着箱子的纹理，在 Beta 1.4 中无法被挖掘，但在 Beta 1.4_01 版本后会立刻被破坏，并掉落本体。
+上锁的箱子拥有 15 的亮度。
+上锁的箱子会在每个区块中的任意位置生成一个，但前提是所生成的位置在生成前是一个下方有固体方块的空气方块，成功生成后会在日志中输出 added a chest!!。在 Beta 1.4_01 版本后的版本中，每当上锁的箱子接收到一个随机刻时就会自动消失。
+在 Beta 1.4_01 版本后，只能通过指令获取上锁的箱子。
+上锁的箱子可以作为燃料，可燃烧 1.5 个物品。
+互动
+在 Beta 1.4 中，尝试打开上锁的箱子会弹出一个屏幕：
+最中间会有一个顺时针旋转的箱子以及一个闪烁的问号，最上方的标题为“史蒂夫公司供应箱”（Steve Co. Supply Crate），并告知玩家需要一个史蒂夫公司供应箱钥匙才能打开箱子（You need a Steve Co. Supply Crate Key to open this. You can pick one up at the Minecraft store.），而钥匙可以在 Minecraft 商店中购买。窗口的下方有两个按钮，分别是“现在不用”（Not now）和“前往商店”（Go to store）。
+Minecraft 商店
+点击“前往商店”会使用默认浏览器进入 Minecraft 商店，即https://minecraft.net/store/loot.jsp网站，但实际上玩家并不能买到钥匙，上锁的箱子也不能被打开。
+网站上线于 2011 年 4 月 1 日，目前该网站已经被删除。
+Minecraft 商店
+在商店中，共有 12 种物品出售，但其实都无法购买，点击“进行结算”（PROCEED TO CHECKOUT!）会在屏幕中播放一段尖叫，并会有一只来自《侏罗纪公园》的恐龙从屏幕中咆哮着飞过。
+将总价值超过 $10000 的物品放入购物车中会弹出窗口询问玩家是否有癫痫，点击“OK”会导致屏幕开始闪烁。
+2011 年 4 月 2 日，商店中多出了一幅彩色的横幅，上面写着“♥ April Fools'! ♥”，并播放音乐《Never Gonna Give You Up》（没错，你被骗了）。
+商店中出售的物品如下：
+史蒂夫公司供应箱钥匙（$3）（Steve Co. Supply Crate Key）
+史蒂夫公司供应箱钥匙，5件套（$18）（Steve Co. Supply Crate Key, 5-Pack）
+矿工头盔（$21）（Miner's Helmet）
+更改名字（$99）（Name Change）
+苦力怕鞍（$42）（Creeper Saddle）
+秘密破坏者身份（$155）（Secret Griefer IDemtity）
+增大胶囊（$2）（Enlargement Pill）
+来自客服的回复（$494）（Response From Support）
+敬请期待（$75）（Coming Soon）
+敬请期待（$7）（Coming Soon）
+普通挂锁（$8）（Regular Padlock）
+敬请期待（$1499）（Coming Soon）
+版本信息
+上锁的箱子在Beta 1.4 版本加入，在Beta 1.4_01 版本后不再自然生成，在 1.7.2 快照 13w41a 版本中被彻底移除。
+在 1.3.1  快照12w21a 版本、12w22a 版本、1.5 快照13w01a 版本、13w03a 版本和 1.6.1 快照13w18a 版本中修改了纹理。

@@ -1,0 +1,1 @@
+三色旗（Le Tricolore）是一个在开启 french_mode 规则时获得的物品，无实际用途。

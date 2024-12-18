@@ -1,0 +1,1 @@
+双层 Etho 台阶（Double Etho Slab）是由两个Etho 台阶放置在一起时的方块，和TNT有着相同的纹理和特性，ID 为 159。

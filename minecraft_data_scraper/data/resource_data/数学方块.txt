@@ -1,0 +1,2 @@
+数学方块（Number Block）是一种装饰方块，无任何其他用途。
+数学方块在 MinecraftEdu1.5.1 Build 10 版本加入。

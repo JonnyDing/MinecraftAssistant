@@ -1,0 +1,6 @@
+知识之书（Knowledge Book）是一种使用后可以让玩家获得指定合成配方的实用物品，目前只能通过指令获得。
+主要用于自定义地图中搭配 /gamerule doLimitedCrafting true 使用，因为后者可以使玩家只能用已经解锁了的合成配方来合成物品。
+如果想要获得可以使用的知识之书，请用以下指令：
+1.13+：/give @s minecraft:knowledge_book{Recipes:["配方ID", "配方ID"......]}
+1.12：/give @s minecraft:knowledge_book 1 0 {Recipes:["配方ID", "配方ID"......]}
+知识之书在 Java 版 1.12 快照17w13a 版本中加入，在 Java 版 1.14 快照18w43a 版本中修改了纹理。Java 版 18w43a 版本中修改的纹理
