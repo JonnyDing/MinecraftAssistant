@@ -1,7 +1,7 @@
 import os
 
 
-def merge_txt_files(input_folder, output_folder, files_per_merge=25):
+def merge_txt_files(input_folder, output_folder, files_per_merge=1000):
     # 检查输出文件夹是否存在，不存在则创建
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -31,7 +31,7 @@ def merge_txt_files(input_folder, output_folder, files_per_merge=25):
 
 
 # 示例：输入文件夹和输出文件夹路径
-input_folder = '../data/natural_data'  # 替换为你的输入文件夹路径
-output_folder = '../data/natural_data/natural_process_data'  # 替换为你的输出文件夹路径
+input_folder = '../data/raw_data/'  # 替换为你的输入文件夹路径
+output_folder = '../data/all'  # 替换为你的输出文件夹路径
 
 merge_txt_files(input_folder, output_folder)
