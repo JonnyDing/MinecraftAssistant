@@ -1,9 +1,8 @@
 import json
-
-new_input_file_path = "dataset/train/lora/data_plus.jsonl"
+new_input_file_path = "dataset/train/lora/jsonl/minecraft_plus.jsonl"
 new_output_file_path = "dataset/train/lora/minecraft_plus.json"
 
-
+# Reading the newly uploaded JSONL file
 new_converted_data = []
 with open(new_input_file_path, "r", encoding="utf-8") as infile:
     for line in infile:
@@ -11,7 +10,7 @@ with open(new_input_file_path, "r", encoding="utf-8") as infile:
         new_converted_item = {
             "instruction": item.get("input", ""),
             "input": "",
-            "output": item.get("target", "")
+            "output": item.get("target", ""),
         }
         new_converted_data.append(new_converted_item)
 

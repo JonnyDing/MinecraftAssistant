@@ -90,5 +90,5 @@ python test.py
 python app.py
 ```
 ![img.png](images/result.png)
-
-
+## loss曲线
+![loss_comparasion.png](images/loss_comparasion.png)
